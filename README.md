@@ -32,7 +32,7 @@ print(f"Mensaje encriptado con Hash: {hashDigest}")
 ### Salida esperada
 Un hash único en formato hexadecimal para el mensaje proporcionado.
 
-![SalidaHash](Resultados\Hash.JPG )
+![SalidaHash](Resultados/Hash.JPG )
 
 ## Ejemplo 2: Cifrado Simétrico con `cryptography.fernet`
 
@@ -59,7 +59,7 @@ print(f"Mensaje descifrado: {mensajeDeCipher}")
 ### Salida esperada
 - **Mensaje cifrado:** Texto cifrado ilegible.
 - **Mensaje decifrado:** El mensaje original.
-![SalidaSim](Resultados\Simetrico.JPG)
+![SalidaSim](Resultados/Simetrico.JPG)
 
 
 ## Ejemplo 3: Cifrado Asimétrico con `cryptography.hazmat`
@@ -120,11 +120,11 @@ print(f"Mensaje descifrado: {textoDecifrado}")
 ```
 ### Salida esperada 
 - **Claves:** La clave privada y pública generadas en formato PEM.
-![SalidaAsim](Resultados\Asimetrico_1.JPG "Clave Privada")
-![SalidaAsim2](Resultados\Asimetrico_2.JPG "Clave Publica")
+![SalidaAsim](Resultados/Asimetrico_1.JPG "Clave Privada")
+![SalidaAsim2](Resultados/Asimetrico_2.JPG "Clave Publica")
 - **Mensaje cifrado:** Texto cifrado ilegible.
 - **Mensaje descifrado:** El mensaje original.
-![SalidaAsim3](Resultados\Asimetrico_3.JPG "Resultados")
+![SalidaAsim3](Resultados/Asimetrico_3.JPG "Resultados")
 
 
 
